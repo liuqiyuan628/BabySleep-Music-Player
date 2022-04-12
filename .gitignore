@@ -1,0 +1,7 @@
+workspace.code-workspace
+.DS_Store
+.vscode/settings.json
+.vscode
+TestCase-TannerLiu-V2.docx
+cypress/integration/1-getting-started
+cypress/integration/2-advanced-examples
