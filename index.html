@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tanner's white noise music player for babies</title>
+    <script src="js/index.js"></script>
+    <script src="js/pauseMusic.js"></script>
+    <script src="js/checkTimerTime.js"></script>
+    <script src="js/getTimerTime.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Tanner's white noise music player for babies</h1>
+    </header>
+
+    <main>
+      <div class="info">
+        <p>
+          Sometimes, calm a new baby and let the little one fall asleep could be
+          difficult. However, white noise is definitely helpful. So, I'd love to
+          create this simple music player.
+        </p>
+        <p>
+          <strong>#How to use#</strong> choice one music or white noise your
+          baby love, and set a timer to turn off the music in case you forgot to
+          turn it off before you and your little baby fall asleep.
+        </p>
+      </div>
+      <section class="timerBtn">
+        <h2>Select a timer:</h2>
+        <div class="btnContainer">
+          <select name="timer" id="timer-select">
+            <option value="" id="defaultOption">Please Choose a Timer</option>
+            <option value="3s">3s</option>
+            <option value="1Min">1Min</option>
+            <option value="10Min">10Min</option>
+            <option value="15Min">15Min</option>
+            <option value="30Min">30Min</option>
+            <option value="1Hour">1Hour</option>
+            <option value="1000Hours">1000Hours</option>
+          </select>
+          <small class="hiddenInfo">Timer set!</small>
+        </div>
+      </section>
+
+      <section class="natureSound">
+        <h2>Nature Sound</h2>
+        <figure>
+          <figcaption>Birds</figcaption>
+          <audio controls loop>
+            <source
+              src="audio/nature_sound/birds-in-the-jungle.wav"
+              type="audio/wav"
+            />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>Fire</figcaption>
+          <audio controls loop>
+            <source
+              src="audio/nature_sound/FireBarnInt.mp3"
+              type="audio/mpeg"
+            />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>Forest</figcaption>
+          <audio controls loop>
+            <source
+              src="audio/nature_sound/forest-with-insects.wav"
+              type="audio/wav"
+            />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>Ocean</figcaption>
+          <audio controls loop>
+            <source src="audio/nature_sound/Ocean.mp3" type="audio/mpeg" />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>Rain and Thunderstorm</figcaption>
+          <audio controls loop>
+            <source
+              src="audio/nature_sound/rain-and-thunder-storm.wav"
+              type="audio/wav"
+            />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>Pure Rain</figcaption>
+          <audio controls loop>
+            <source src="audio/nature_sound/Rain.mp3" type="audio/mpeg" />
+            Your Browser doesn't support the audio
+          </audio>
+        </figure>
+      </section>
+
+      <section class="whiteNoise">
+        <h2>White Noise</h2>
+
+        <figure>
+          <figcaption>Dryer</figcaption>
+          <audio controls loop>
+            <source src="audio/white_noise/Dryer.mp3" type="audio/mpeg" />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>Fan</figcaption>
+          <audio controls loop>
+            <source src="audio/white_noise/Fan.mp3" type="audio/mpeg" />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>Hairdryer</figcaption>
+          <audio controls loop>
+            <source src="audio/white_noise/Hairdryer.mp3" type="audio/mpeg" />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>Light White Noise</figcaption>
+          <audio controls loop>
+            <source
+              src="audio/white_noise/Light-whiteNoise.mp3"
+              type="audio/mpeg"
+            />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>Underwater</figcaption>
+          <audio controls loop>
+            <source src="audio/white_noise/Underwater.mp3" type="audio/mpeg" />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>White Noise</figcaption>
+          <audio controls loop>
+            <source src="audio/white_noise/White-Noise.mp3" type="audio/mpeg" />
+            Your Browser doesn't support the audio
+          </audio>
+        </figure>
+      </section>
+
+      <section class="lightMusic">
+        <h2>Light Music</h2>
+
+        <figure>
+          <figcaption>Sweet Lullaby</figcaption>
+          <audio controls loop>
+            <source
+              src="audio/light_music/hero_Sweet-Lullaby.mp3"
+              type="audio/mpeg"
+            />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>Good Night Lullaby</figcaption>
+          <audio controls loop>
+            <source
+              src="audio/light_music/lullaby_goodnight.mp3"
+              type="audio/mpeg"
+            />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>Lullaby Twinkle Like a Star</figcaption>
+          <audio controls loop>
+            <source
+              src="audio/light_music/lullaby_twinkle-like-a-star.mp3"
+              type="audio/mpeg"
+            />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>Piano Mozart</figcaption>
+          <audio controls loop>
+            <source
+              src="audio/light_music/Piano-mozart.mp3"
+              type="audio/mpeg"
+            />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>Piano White Petals</figcaption>
+          <audio controls loop>
+            <source
+              src="audio/light_music/piano_white-petals.mp3"
+              type="audio/mpeg"
+            />
+            Your Browser doesn't support the audio
+          </audio>
+
+          <figcaption>Twinkle Twinkle Little Star</figcaption>
+          <audio controls loop>
+            <source
+              src="audio/light_music/twinkle_twinkle_little_star.mp3"
+              type="audio/mpeg"
+            />
+            Your Browser doesn't support the audio
+          </audio>
+        </figure>
+      </section>
+    </main>
+  </body>
+</html>
